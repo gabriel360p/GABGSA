@@ -1,0 +1,13 @@
+
+    def __str__(self):
+        return f'{self.alunome},{self.alumatricula},{self.aluemail},{self.alufaltas},{self.aluserie}'
+
+    
+    def __str__ (self):
+        return f'{self.turcodigo},{self.turprocodigo},{self.turalucodigo}'
+
+    def __str__(self):
+        return f'{self.pronome},{self.promatricula},{self.proemail},{self.profaltas},{self.procodigo},{self.promateria}'
+
+    def __str__ (self):
+        return f'{self.matcodigo},{self.matnome}'
